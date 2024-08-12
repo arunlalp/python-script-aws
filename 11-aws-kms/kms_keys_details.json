@@ -1,0 +1,143 @@
+[
+    {
+        "AWSAccountId": "533267438617",
+        "KeyId": "2aaca40a-ffe5-4399-9675-914dccc1800c",
+        "Arn": "arn:aws:kms:us-west-2:533267438617:key/2aaca40a-ffe5-4399-9675-914dccc1800c",
+        "CreationDate": "2024-08-07T23:56:47.011000-07:00",
+        "Enabled": false,
+        "Description": "demo-eks-cluster cluster encryption key",
+        "KeyUsage": "ENCRYPT_DECRYPT",
+        "KeyState": "PendingDeletion",
+        "DeletionDate": "2024-09-07T02:24:18.063000-07:00",
+        "Origin": "AWS_KMS",
+        "KeyManager": "CUSTOMER",
+        "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+        "KeySpec": "SYMMETRIC_DEFAULT",
+        "EncryptionAlgorithms": [
+            "SYMMETRIC_DEFAULT"
+        ],
+        "MultiRegion": false,
+        "Aliases": []
+    },
+    {
+        "AWSAccountId": "533267438617",
+        "KeyId": "333e8bfb-4118-4a7a-8895-8f2667340bb3",
+        "Arn": "arn:aws:kms:us-west-2:533267438617:key/333e8bfb-4118-4a7a-8895-8f2667340bb3",
+        "CreationDate": "2024-08-06T02:18:47.497000-07:00",
+        "Enabled": false,
+        "Description": "ex-karpenter cluster encryption key",
+        "KeyUsage": "ENCRYPT_DECRYPT",
+        "KeyState": "PendingDeletion",
+        "DeletionDate": "2024-09-05T02:35:28.253000-07:00",
+        "Origin": "AWS_KMS",
+        "KeyManager": "CUSTOMER",
+        "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+        "KeySpec": "SYMMETRIC_DEFAULT",
+        "EncryptionAlgorithms": [
+            "SYMMETRIC_DEFAULT"
+        ],
+        "MultiRegion": false,
+        "Aliases": []
+    },
+    {
+        "AWSAccountId": "533267438617",
+        "KeyId": "6a5a6615-6413-412c-9438-617303faf2ba",
+        "Arn": "arn:aws:kms:us-west-2:533267438617:key/6a5a6615-6413-412c-9438-617303faf2ba",
+        "CreationDate": "2024-08-11T21:37:43.323000-07:00",
+        "Enabled": true,
+        "Description": "demo key for decommission",
+        "KeyUsage": "ENCRYPT_DECRYPT",
+        "KeyState": "Enabled",
+        "Origin": "AWS_KMS",
+        "KeyManager": "CUSTOMER",
+        "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+        "KeySpec": "SYMMETRIC_DEFAULT",
+        "EncryptionAlgorithms": [
+            "SYMMETRIC_DEFAULT"
+        ],
+        "MultiRegion": false,
+        "Aliases": [
+            "alias/demo-key"
+        ]
+    },
+    {
+        "AWSAccountId": "533267438617",
+        "KeyId": "a65d9bcd-18f3-4d09-85f0-aba52132d06f",
+        "Arn": "arn:aws:kms:us-west-2:533267438617:key/a65d9bcd-18f3-4d09-85f0-aba52132d06f",
+        "CreationDate": "2024-08-08T02:38:30.250000-07:00",
+        "Enabled": false,
+        "Description": "KMS key for EKS secrets encryption",
+        "KeyUsage": "ENCRYPT_DECRYPT",
+        "KeyState": "PendingDeletion",
+        "DeletionDate": "2024-08-18T03:27:54.702000-07:00",
+        "Origin": "AWS_KMS",
+        "KeyManager": "CUSTOMER",
+        "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+        "KeySpec": "SYMMETRIC_DEFAULT",
+        "EncryptionAlgorithms": [
+            "SYMMETRIC_DEFAULT"
+        ],
+        "MultiRegion": false,
+        "Aliases": []
+    },
+    {
+        "AWSAccountId": "533267438617",
+        "KeyId": "acd65915-3524-4ae6-aa46-9fcfc865d7ff",
+        "Arn": "arn:aws:kms:us-west-2:533267438617:key/acd65915-3524-4ae6-aa46-9fcfc865d7ff",
+        "CreationDate": "2024-08-08T03:52:30.678000-07:00",
+        "Enabled": false,
+        "Description": "KMS key for EKS secrets encryption",
+        "KeyUsage": "ENCRYPT_DECRYPT",
+        "KeyState": "PendingDeletion",
+        "DeletionDate": "2024-08-18T23:31:58.414000-07:00",
+        "Origin": "AWS_KMS",
+        "KeyManager": "CUSTOMER",
+        "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+        "KeySpec": "SYMMETRIC_DEFAULT",
+        "EncryptionAlgorithms": [
+            "SYMMETRIC_DEFAULT"
+        ],
+        "MultiRegion": false,
+        "Aliases": []
+    },
+    {
+        "AWSAccountId": "533267438617",
+        "KeyId": "af97f4aa-213f-43db-abea-1a4f98769fd1",
+        "Arn": "arn:aws:kms:us-west-2:533267438617:key/af97f4aa-213f-43db-abea-1a4f98769fd1",
+        "CreationDate": "2024-08-07T22:50:27.027000-07:00",
+        "Enabled": false,
+        "Description": "demo-terraform-eks-cluster cluster encryption key",
+        "KeyUsage": "ENCRYPT_DECRYPT",
+        "KeyState": "PendingDeletion",
+        "DeletionDate": "2024-09-06T23:35:36.720000-07:00",
+        "Origin": "AWS_KMS",
+        "KeyManager": "CUSTOMER",
+        "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+        "KeySpec": "SYMMETRIC_DEFAULT",
+        "EncryptionAlgorithms": [
+            "SYMMETRIC_DEFAULT"
+        ],
+        "MultiRegion": false,
+        "Aliases": []
+    },
+    {
+        "AWSAccountId": "533267438617",
+        "KeyId": "d1716caa-fb1e-4b95-b57a-fa1654e9cd7a",
+        "Arn": "arn:aws:kms:us-west-2:533267438617:key/d1716caa-fb1e-4b95-b57a-fa1654e9cd7a",
+        "CreationDate": "2024-08-06T02:44:45.769000-07:00",
+        "Enabled": false,
+        "Description": "ex-karpenter cluster encryption key",
+        "KeyUsage": "ENCRYPT_DECRYPT",
+        "KeyState": "PendingDeletion",
+        "DeletionDate": "2024-09-05T03:38:09.059000-07:00",
+        "Origin": "AWS_KMS",
+        "KeyManager": "CUSTOMER",
+        "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+        "KeySpec": "SYMMETRIC_DEFAULT",
+        "EncryptionAlgorithms": [
+            "SYMMETRIC_DEFAULT"
+        ],
+        "MultiRegion": false,
+        "Aliases": []
+    }
+]
